@@ -33,7 +33,7 @@ a {
 .header {
     width: 100%;
     height: 825px;
-    background: rgb(227,225,166);
+    background: #e3e1a6;
     background: linear-gradient(285deg, rgba(227,225,166,1) 35%, rgba(255,224,1,1) 35%);
     position: relative;
 }
@@ -76,9 +76,6 @@ a {
     align-self: flex-end;
 }
 
-.hader{
-    
-}
 
 .header-menu-right-telephone-text {
     display: flex;
@@ -88,6 +85,21 @@ a {
     font-family: 'Montserrat', sans-serif; 
     font-weight: bold;
     font-size: 20px;
+
+    animation-name: anime1;
+    animation-duration: 3s;
+}
+
+@keyframes anime1 {
+    0%{background: #e3e1a6;}
+    50%{background: #b6b239;
+    border: 5px solid red;
+    border-radius: 3px;}
+    100%{background: #a09b06;
+        border: 5px solid #9dff00d8;
+        border-radius: 15px
+    }
+    
 }
 
 .header-menu-right-telephone__title {
