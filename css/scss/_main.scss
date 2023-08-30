@@ -1,0 +1,239 @@
+.main {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.main-order {
+    display: flex;
+    margin-top: 95px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.main-order__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-order__title {
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+}
+
+.main-order__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 30px;
+    width: 1035px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.main-order-background {
+    width: 100vw;
+    height: 140px;
+    background-color: #e8e6a9;
+    position: absolute;
+    z-index: -1;
+    top: 300px;
+}
+
+.main-order-goods__img {
+    width: 370px;
+    height: 353px;
+}
+
+.main-order-goods {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.main-order-goods__item {
+    width: 360px;
+    margin-right: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-order-goods__header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.main-order-goods__item__text {
+    text-align: center;
+    width: 345px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.main-order-goods__order {
+    width: 195px;
+    height: 60px;
+    background-color: #ffe001;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
+.main-discaver {
+    margin-top: 110px;
+}
+
+.main-discaver-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-discaver-discription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+.main-discaver-tittle {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 45px;
+}
+
+.main-discaver-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 25px;
+    width: 1010px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.main-discaver-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-discaver-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.main-discaver-dots__item {
+    margin-right: 10px;
+}
+
+
+.main-news-try {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.main-news-try-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-1 {
+    background-image: url(../img/new1.png);
+    background-size: cover;
+    width: 600px;
+    height: 420px;
+    margin-right: 40px;
+}
+
+.news-2 {
+    background-image: url(../img/new2.png);
+    width: 600px;
+    height: 195px;
+    margin-bottom: 30px;
+}
+
+.news-3 {
+    background-image: url(../img/new3.png);
+    width: 600px;
+    height: 195px;
+}
+
+.main-news-try__item-contant {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 55px;
+    width: 200px;
+}
+
+.main-news-try__item-contant-tittle {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+.main-form-form__subtittle {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.main-form-form__tittle {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main-form-form-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+input {
+    display: block;
+    width: 375px;
+    height: 60px;
+    padding: 25px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-top: 1px;
+
+}
+
+.main-form-form__input6_button {
+    background-color: #ffdf01;
+}
